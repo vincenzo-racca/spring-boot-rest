@@ -14,3 +14,8 @@ Recently I added a Dockerfile to exec this simple app as a docker container
 1. Go to root dir (spring-boot-rest)
 2. run `docker build -t spring-boot-rest .` command to build the docker image
 3. run `docker run --name=spring-boot -d spring-boot-rest` to create a container called spring-boot-rest from that image
+
+#### Exec with Native Build
+1. install a JDK with a GraalVM distribution (example, with sdkman: `sdk install java 22.3.r17-grl`)
+2. from the project's root, run: `./mvnw -DskipTests -Pnative native:compile`
+3. run the executable app: `target/spring-boot-rest`

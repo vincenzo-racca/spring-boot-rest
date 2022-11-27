@@ -1,4 +1,4 @@
-FROM openjdk:11-jdk
+FROM openjdk:17-jdk
 ARG JAR_FILE=target/*.jar
 COPY ${JAR_FILE} application/app.jar
 RUN groupadd -g 1000 java_group

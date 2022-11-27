@@ -1,4 +1,4 @@
-package it.enzoracca.springbootrest;
+package com.vincenzoracca.springbootrest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

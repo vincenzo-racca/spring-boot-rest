@@ -1,4 +1,4 @@
-package it.enzoracca.springbootrest;
+package com.vincenzoracca.springbootrest;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
